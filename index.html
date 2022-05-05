@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <link rel="stylesheet" href="./css/utilities.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/media.css" />
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <title>Asjad Seraj | Portfolio</title>
+</head>
+
+<body id="home">
+  <header>
+    <nav>
+      <div class="container">
+        <div class="main-logo">
+          <a href="#home">Asjad Seraj</a>
+        </div>
+
+        <div class="links">
+          <ul>
+            <li>
+              <a href="#home"><i class="fas fa-home"></i>Home</a>
+            </li>
+            <li>
+              <a href="#projects"><i class="fas fa-project-diagram"></i>Projects</a>
+            </li>
+            <li>
+              <a href="#skills"><i class="fas fa-laptop-code"></i>Skills</a>
+            </li>
+            <li>
+              <a href="#qual"><i class="fas fa-graduation-cap"></i>Qualification</a>
+            </li>
+            <li>
+              <a href="#contact"><i class="fas fa-user"></i>Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- About section -->
+  <section id="about" class="about-section flex container">
+    <div class="about-head flex">
+      <div class="column">
+        <p>Hey There 👋, I am<br /><span>Asjad Seraj</span>.</p>
+        <p>I love working on Web technologies.</p>
+        <br />
+        <a href="./asjad cv.pdf" download
+          class="btn-primary"><i class="fas fa-cloud-download-alt"></i> Download Resume</a>
+      </div>
+      <div class="column">
+        <img src="./images/asjad .png" alt="" />
+      </div>
+    </div>
+    <div class="social">
+      <a href="https://www.instagram.com/mr_asjad.seraj/" target="_blank" class="social-logo"><i
+          class="fab fa-instagram"></i></a>
+      <a href="https://github.com/AsjadSeraj" target="_blank" class="social-logo"><i class="fab fa-github"></i></a>
+      <a href=https://www.linkedin.com/in/asjad-seraj-81408a233/ target="_blank" class="social-logo"><i
+          class="fab fa-linkedin-in"></i></a>
+      <a href="mailto: asjadseraj1652001@gmail.com" class="social-logo"><i class="fab fa-google"></i></a>
+      <a href="https://www.facebook.com/asjad.seraj" target="blanck" class="social-logo"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/@AsjadSeraj" target="_blank" class="social-logo"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div>
+      <a href="#projects"><i class="fas fa-chevron-down fa-2x"></i></a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section container space-btw-sections">
+    <div class="dash"></div>
+    <div class="section-heading">
+      <h1>Projects</h1>
+    </div>
+    <div class="projects">
+      <div class="project-card flex">
+        <div class="project-info column">
+          <div class="project-title">TWITTER-SENTIMENT-ANALYSIS</div>
+          <div class="project-links">
+            <a class="tag"><i class="fas fa-globe"></i> Preview</a>
+            <a href=https://github.com/AsjadSeraj/TWITTER-SENTIMENT-ANALYSIS.git target="_blank" class="tag"><i class="fab fa-github"></i>
+              Github</a>
+          </div>
+          <p class="project-desc">
+            The Purpose Of This Project Is To Build An Algorithm That Can Accurately Classify Twitter Messages As Positive Or Negative, With Respect To A Query Term
+            <br>
+            Who Are Trying To Research A Product Or Service, Or Marketers Researching Public Opinion Of Their Company
+          </p>
+          <div class="project-tech">
+            <span class="tag">Python</span>
+            <span class="tag">Html</span>
+            <span class="tag">Css</span>
+            <span class="tag">Javascript</span>
+            <span class="tag">twitter Developer account</span>
+          </div>
+        </div>
+        <img class="project-image column" src="./images/2022-04-02 (1).png" alt="" />
+      </div>
+      
+  <!--add new project
+      <div class="project-card flex">
+        <div class="project-info column">
+          <div class="project-title"></div>
+          <div class="project-links">
+            <a class="tag"><i class="fas fa-globe"></i> </a>
+            <a href=" target="_blank" class="tag"><i class="fab fa-github"></i>
+              </a>
+          </div>
+          <p class="project-desc">
+            
+          </p>
+          <div class="project-tech">
+            <span class="tag"></span>
+            <span class="tag"></span>
+            <span class="tag"></span>
+            <span class="tag"></span>
+          </div>
+        </div>
+        <img class="project-image column" src="./images/weathercast-poster.png" alt="" />
+      </div>
+      <div class="project-card flex">
+        <div class="project-info column">
+          <div class="project-title">Saitejrex</div>
+          <div class="project-links">
+            <a href="https://saitejrex.herokuapp.com" target="_blank" class="tag"><i class="fas fa-globe"></i>
+              Preview</a>
+            <a class="tag"><i class="fab fa-github"></i> Github</a>
+          </div>
+          <p class="project-desc">
+            Developed and maintained a full fledged blog website.<br>
+            Brought into use the CRUD operations.
+          </p>
+          <div class="project-tech">
+            <span class="tag">Nodejs</span>
+            <span class="tag">Express</span>
+            <span class="tag">MongoDB</span>
+          </div>
+        </div>
+        <img class="project-image column" src="./images/saitejrex-poster.png" alt="" />
+      </div>
+    </div>
+    -->
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section container space-btw-sections">
+    <div class="dash"></div>
+    <div class="section-heading">
+      <h1>Skills</h1>
+    </div>
+    <div class="skills-wrap">
+      <div class="skills">
+        <div class="skills-title">Languages</div>
+        <div class="skills-list">
+          <div class="skills-card">
+            <i class="devicon-kotlin-plain colored"></i>
+            <div class="skill-name">Python</div>
+          </div>
+          <div class="skills-card">
+            <i class="devicon-javascript-plain colored"></i>
+            <div class="skill-name">Javascript</div>
+          </div>
+          <div class="skills-card">
+            <i class="devicon-java-plain colored"></i>
+            <div class="skill-name">Java</div>
+          </div> <!-- new  languages 
+          <div class="skills-card">
+            <i class="devicon-python-plain colored"></i>
+            <div class="skill-name"></div>
+          -->
+          </div>
+        </div>
+      </div>
+      <div class="skill-sep"></div>
+      <div class="skills">
+        <div class="skills-title">Frontend</div>
+        <div class="skills-list">
+          <div class="skills-card">
+            <i class="devicon-html5-plain colored"></i>
+            <div class="skill-name">HTML</div>
+          </div>
+          <div class="skills-card">
+            <i class="devicon-css3-plain colored"></i>
+            <div class="skill-name">CSS</div>
+          </div>
+          <div class="skills-card">
+            <i class="devicon-sass-original colored"></i>
+            <div class="skill-name">Wordpress</div>
+          </div>
+          <!--add new frontend lang
+          <div class="skills-card">
+            <i class="devicon-wordpress-plain colored"></i>
+            <div class="skill-name"></div>
+          </div>
+          <div class="skills-card">
+            <i class="devicon-bootstrap-plain colored"></i>
+            <div class="skill-name">Bootstrap</div>
+          </div>
+        -->
+        </div>
+      </div>
+      <div class="skill-sep"></div>
+      <div class="skills">
+        <div class="skills-title">Backend</div>
+        <div class="skills-list">
+          <div class="skills-card">
+            <i class="devicon-nodejs-plain colored"></i>
+            <div class="skill-name">NodeJS</div>
+          </div>
+          <!-- add new backend lang
+          <div class="skills-card">
+            <i class="devicon-mongodb-plain colored"></i>
+            <div class="skill-name"></div>
+          </div>
+          <div class="skills-card">
+            <i class="devicon-firebase-plain colored"></i>
+            <div class="skill-name"></div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Qualification section -->
+  <section id="qual" class="qual-section container space-btw-sections">
+    <div class="dash"></div>
+    <div class="section-heading">
+      <h1>Qualification</h1>
+    </div>
+
+    <div class="education__container bd-grid">
+
+      <div class="education__content">
+        <div>
+          <h3 class="education__year">2019 - 2022</h3>
+          <div class="education__university">Mumbai University</div>
+        </div>
+
+        <div class="education__time">
+          <span class="education__rounder"></span>
+          <span class="education__line"></span>
+        </div>
+
+        <div>
+          <h3 class="education__race">
+            Bachelor of Science in Information Technology
+          </h3>
+          <div class="education__specialty">BScIT</div>
+        </div>
+      </div>
+
+      <div class="education__content">
+        <div>
+          <h3 class="education__year">2019 - 2020</h3>
+          <div class="education__university">Udemy</div>
+        </div>
+
+        <div class="education__time">
+          <span class="education__rounder"></span>
+          <span class="education__line"></span>
+        </div>
+
+        <div>
+          <h3 class="education__race">The Complete Web  Developer React js. Masterclass</h3>
+          <div class="education__specialty">
+            Udemy, Instructor - Robert Bunch
+          </div>
+        </div>
+      </div>
+
+      <div class="education__content">
+        <div>
+          <h3 class="education__year">2017 - 2019</h3>
+          <div class="education__university">CBSE Board</div>
+        </div>
+
+        <div class="education__time">
+          <span class="education__rounder"></span>
+          <span class="education__line"></span>
+        </div>
+
+        <div>
+          <h3 class="education__race">Higher Secondary Education</h3>
+          <div class="education__specialty">Computer Science</div>
+        </div>
+      </div>
+
+      <div class="education__content">
+        <div>
+          <h3 class="education__year">2017</h3>
+          <div class="education__university">CBSE Board</div>
+        </div>
+
+        <div class="education__time">
+          <span class="education__rounder"></span>
+          <span class="education__line"></span>
+        </div>
+
+        <div>
+          <h3 class="education__race">Secondary Education</h3>
+          <div class="education__specialty"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section container space-btw-sections">
+    <div class="dash"></div>
+    <div class="section-heading">
+      <h1>Contact</h1>
+    </div>
+    <form class="gform pure-form pure-form-stacked"
+    action="https://formspree.io/f/mqknydkp"
+    method="POST" data-email="asjadseraj1652001@gmail.com">
+      <div class="form-elements">
+        <div>
+          <input type="text" name="name" id="name" placeholder="Full name" required="required" maxlength="40" />
+        </div>
+        <div>
+          <input type="email" name="email" id="email" placeholder="Your e-mail" required="required" maxlength="50" />
+        </div>
+        <div>
+          <input type="text" name="subject" id="subject" placeholder="Subject" required="required" maxlength="200" />
+        </div>
+        <div>
+          <textarea name="message" id="message" maxlength="3000" placeholder="Your message"
+            required="required"></textarea>
+        </div>
+        <div class="form-btn">
+          <button onclick="changeFormSubmitBtn()" class="btn-primary" id="form-submit-btn" type="submit">
+            Send Message
+          </button>
+        </div>
+      </div>
+      <!-- Thankyou_message -->
+      <br />
+      <div class="thankyou_message">
+        <br /><br />
+        <h1>Form Submitted</h1>
+        <i class="far fa-check-circle fa-2x"></i>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <h2 class="footer-logo">Asjad Seraj</h2>
+      <div class="social">
+        <a href="https://www.instagram.com/mr_asjad.seraj/" target="_blank" class="social-logo"><i
+            class="fab fa-instagram"></i></a>
+        <a href="https://github.com/AsjadSeraj" target="_blank" class="social-logo"><i class="fab fa-github"></i></a>
+        <a href=https://www.linkedin.com/in/asjad-seraj-81408a233/ target="_blank" class="social-logo"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="mailto: asjadseraj1652001@gmail.com" class="social-logo"><i class="fab fa-google"></i></a>
+        <a href="https://www.facebook.com/asjad.seraj" target="blanck" class="social-logo"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/@AsjadSeraj" target="_blank" class="social-logo"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="copyright">
+        <p>
+          &copy; 2021, All rights reserved - Asjad Seraj Portfolio Website
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/index.js" data-cfasync="false"></script>
+</body>
+
+</html>
